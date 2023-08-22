@@ -179,6 +179,31 @@
         h3 {
             font-size: 20px;
         }
+        .ses
+        {
+            min-height: 100px;
+            background-color: #0066b1;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 10px;
+            margin: 5px;
+        }
+        .ses.le
+        {
+            background-color: #009688;
+        }
+        .ses.le a
+        {
+            color: white !important;
+        }
+       .tta a{
+        font-size: 26px;
+       }
+        .pcontent >a{
+            color:yellow;
+            line-height: inherit;
+            font-size: 25px;
+        }
     </style>
     <script src="js/jquery-3.3.1.min.js"></script>
 </head>
@@ -188,257 +213,64 @@
         <div id="header">
           <img src="images/hinh.jpg" style="width: 100% !important; max-width: 100% !important;" />
         </div>
-        <div id="main-content">
+        <div id="main-content" style="margin-top: -40px;">
             <br/>
-            <h1 style="text-align:center; color: red; font-weight: bold">DANH SÁCH BÀI BÁO </h1>
+            <h1 style="text-align:center; color: white;padding: 40px; font-weight: bold; background-color: #f81c16; border-radius: 0px; font-size:  calc(1.5vw + 1.5vh + 0.5vmin)">LIST OF CONFERENCE SESSIONS </h1>
             <br/>
             <div class="col-sm-12" style="overflow-x: auto">
-                <table class="table" style="width: 100%">
-                    <thead>
-                        <tr id="hdth">
-                            <th>#</th>
-                            <th>TÊN BÀI BÁO</th>
-                            <th>TÁC GIẢ</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">1</span>
-                            </td>
-                            <td align="left">
-                                <a href="maso01.pdf">Ứng dụng chatgpt trong lập trình</a>
-                            </td>
-                            <td>
-                                <a href="maso01.pdf">TS. Nguyễn Hà Giang</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">2</span>
-                            </td>
-                            <td>
-                                <a href="maso02.pdf">
-                                    Kỹ thuật khai thác Web và ứng dụng
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso02.pdf">TS. Văn Thị Thiên Trang</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">3</span>
-                            </td>
-                            <td>
-                                <a href="maso03.pdf">
-                                    Công nghệ Hologram và ứng dụng trong Marketing
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso03.pdf">ThS. Nguyễn Minh Tuấn</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">4</span>
-                            </td>
-                            <td>
-                                <a href="maso04.pdf">Ứng dựng của Powtoon trong việc dạy và học</a>
-                            </td>
-                            <td>
-                                <a href="maso04.pdf">ThS. Nguyễn Minh Tuấn</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">5</span>
-                            </td>
-                            <td>
-                                <a href="maso05.pdf">Hình ảnh thương hiệu và đối thoại văn hóa</a>
-                            </td>
-                            <td>
-                                <a href="maso05.pdf">ThS. Võ Đình Ngà</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">6</span>
-                            </td>
-                            <td>
-                                <a href="maso06.pdf">Dự đoán tỷ lệ rời bỏ khách hàng của ngân hàng bằng máy họ</a>
-                            </td>
-                            <td>
-                                <a href="maso06.pdf">ThS. Trần Thành Công</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">7</span>
-                            </td>
-                            <td>
-                                <a href="maso07.pdf">
-                                    Nâng cao chất lượng dạy và học xác suất thống kê tại UEF
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso07.pdf">ThS. Trương Nhã Bình</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">8</span>
-                            </td>
-                            <td>
-                                <a href="maso08.pdf">
-                                    Nghiên cứu xây dựng mô hình cố vấn học tập tại Trường Đại học
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso08.pdf">ThS. Hoàng Văn Hiếu</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">9</span>
-                            </td>
-                            <td>
-                                <a href="maso09.pdf">Nghiên cứu xây dựng hệ thống quản lý tại Khoa Công nghệ thông tin</a>
-                            </td>
-                            <td>
-                                <a href="maso09.pdf">ThS. Hoàng Văn Hiếu</a>
-                            </td>
-                        </tr>
-
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">10</span>
-                            </td>
-                            <td>
-                                <a href="maso10.pdf">Nhận diện và phòng tránh các cuộc tấn công trên không gian mạng</a>
-                            </td>
-                            <td>
-                                <a href="maso10.pdf">ThS. Nguyễn Minh Thắng</a>
-                            </td>
-                        </tr>
-
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">11</span>
-                            </td>
-                            <td>
-                                <a href="maso11.pdf">Tác động của các yếu tố văn hoá đến quá trình thiết kế sản phẩm bao bì hiện đại</a>
-                            </td>
-                            <td>
-                                <a href="maso11.pdf">ThS. Nguyễn Thị Ngọc Châu</a>
-                            </td>
-                        </tr>
-
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">12</span>
-                            </td>
-                            <td>
-                                <a href="maso12.pdf">
-                                    Ứng dụng các hoa văn, họa tiết truyền thống dân tộc vào các sản phẩm Mỹ thuật ứng
-                                    dụng trong ngành thiết kế Đồ họa
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso12.pdf">ThS. Nguyễn Thị Ngọc Châu</a>
-                            </td>
-                        </tr>
-
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">13</span>
-                            </td>
-                            <td>
-                                <a href="maso13.pdf">
-                                    Ảnh hưởng của truyền miệng điện tử (ewom) đến ý định mua hàng của người tiêu dùng
-                                    trên sàn thương mại điện tử tại Việt Nam
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso13.pdf">Cô Hoàng Thị Hằng</a>
-                            </td>
-                        </tr>
-
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">14</span>
-                            </td>
-                            <td>
-                                <a href="maso14.pdf">
-                                    Decoding insight: Marketer's soulmate
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso14.pdf">Cô Hoàng Thị Hằng</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">15</span>
-                            </td>
-                            <td>
-                                <a href="maso15.pdf">
-                                    The battle between AI and Artists: The Future of Art
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso15.pdf">ThS. Bùi Thanh Thoại Trân</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">16</span>
-                            </td>
-                            <td>
-                                <a href="maso16.pdf">
-                                    R và Python trong phân tích dữ liệu
-                                </a>
-                            </td>
-                            <td>
-                                <a href="maso16.pdf">ThS. Nguyễn Thị Hoài Linh</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="ses le">
+                    <p class="tta"><a href="/sessions-1.html">SESSIONS 1</a></p>
+                    <p class="pcontent"><a href="/sessions-1.html">Application of Technology and Big Data in the fields of finance, accounting and auditing in the context of globalization</a></p>
+                </div>
+                <div class="ses">
+                    <p class="tta"><a href="/sessions-2">SESSIONS 2</a></p>
+                    <p class="pcontent"><a href="/sessions-2">Digital economy in VietNam, trends and Potentiability</a></p>
+                </div>
+                <div class="ses le">
+                    <p class="tta"><a href="/sessions-3">SESSIONS 3</a></p>
+                    <p class="pcontent"><a href="/sessions-3">Digital Transformation – Cooperation – Global Integration in Business</a></p>
+                </div>
+                <div class="ses">
+                    <p class="tta"><a href="/sessions-4">SESSIONS 4</a></p>
+                    <p class="pcontent"><a href="/sessions-4">Recovery Communications in the Tourism and Hospitality Industry after the Covid-19 pandemic</a></p>
+                </div>
+                <div class="ses le">
+                    <p class="tta"><a href="/sessions-5">SESSIONS 5</a></p>
+                    <p class="pcontent"><a href="/sessions-5">Digital versus non- Digital | <span class="font-weight:bold">Challenges Faced by Teachers in Non-Traditional Education</span> | Digital transformation: an indispensable evolution for sustainable corporates</a></p>
+                </div>
+                <div class="ses">
+                    <p class="tta"><a href="/sessions-6">SESSIONS 6</a></p>
+                    <p class="pcontent"><a href="/sessions-6">Information technology and applications</a></p>
+                </div>
+                <div class="ses le">
+                    <p class="tta"><a href="/sessions-7">SESSIONS 7</a></p>
+                    <p class="pcontent"><a href="/sessions-7">Trends and Issues in English Language Education and Research</a></p>
+                </div>
+                <div class="ses">
+                    <p class="tta"><a href="/sessions-8">SESSIONS 8</a></p>
+                    <p class="pcontent"><a href="/sessions-8">International trade law in the context of the current political military crisis</a></p>
+                </div>
             </div>
         </div>
-        <br/>
-        <p style="text-align:center;color: #ae3c33 !important; font-weight:bold; font-size:23px !important">
-            <h1 style="text-align:center;color: #ae3c33 !important; font-weight:bold"><a style="color: #ae3c33 !important; font-size: 23px;" href="kcnttkyyeuhoithaolan5.pdf">KỶ YẾU HỘI THẢO (PDF)</a></h1>
-        </p>
-
-        <hr/>
-<br/><br/>
+        <br/> <br/> <br/>
+        <h1  style="text-align:center; color:#0072bc;padding: calc(1.5vw + 1.5vh + 0.5vmin); font-weight: bold; border-radius: 80px; border: 1px #0066b1 solid"> <a style=" color:#0072bc;font-size:  calc(1.5vw + 1.5vh + 0.5vmin); margin-bottom: 0px;" href="kcnttkyyeuhoithatoanvan.pdf">KỶ YẾU HỘI THẢO (PDF)</a></h1>
+        <br> <br>
         <p style="text-align:center;color: #0072bc !important; font-weight:bold; font-size:23px !important">
-            <h1 style="text-align:center;color: #0072bc !important; font-weight:bold">BAN BIÊN TẬP</h1> <hr /><br />
-            <span style="margin-left:10px; text-align:center;color: #0072bc !important; font-weight:bold"> TS. Nguyễn Hà Giang – Trưởng Khoa CNTT <br /></span>
-            <span style="margin-left: 10px;text-align: center; color: #0072bc !important; font-weight: bold"> TS. Văn Thị Thiên Trang – Phó Trưởng Khoa CNTT <br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Nguyễn Minh Tuấn – Phó Trưởng Khoa CNTT <br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Võ Đình Ngà - Trưởng ngành Thiết kế đồ họa<br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Hoàng Văn Hiếu – Trưởng ngành Công nghệ thông tin<br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Trần Thành Công – Trưởng ngành Thương mại điện tử<br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Nguyễn Thị Hoài Linh – Trưởng ngành Khoa học dữ liệu<br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Ngô Văn Công Bằng – Trưởng Bộ môn THUD<br /></span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold"> ThS. Trương Nhã Bình – Trưởng Bộ môn Toán<br /></span>
-
+            <h1 style="text-align:center;color: #0072bc !important; font-weight:bold; font-size:  calc(1.5vw + 1.5vh + 0.5vmin);">BAN BIÊN TẬP</h1>
+            <p style="margin-left: 10px;text-align: center; color: #0072bc !important; font-weight: bold; font-size:  calc(1vw + 1vh + 0.5vmin); "> ThS. Nguyễn Phạm Hải Hà – Phó Viện Trưởng VĐTSĐH </p>
         </p>
-        <p style="text-align:center;color: #0072bc !important; font-weight:bold">
-            <h1 style="text-align:center;color: #0072bc !important; font-weight:bold">THƯ KÝ</h1><hr /><br />
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold">ThS. Nguyễn Minh Thắng - Giảng viên Khoa CNTT <br /> </span>
-            <span style="margin-left: 10px; text-align: center; color: #0072bc !important; font-weight: bold">Cô. Trần Thị Phương Anh - Thư ký Khoa CNTT <br /> </span>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold; margin-top: 15px;">
+            <h1 style="text-align:center;color: #0072bc !important; font-weight:bold;  font-size:  calc(1.5vw + 1.5vh + 0.5vmin);">THƯ KÝ</h1>
+            <p style="margin-left: 10px;text-align: center; color: #0072bc !important; font-weight: bold; font-size:  calc(1vw + 1vh + 0.5vmin);"> ThS. Nguyễn Phạm Hải Hà – Phó Viện Trưởng VĐTSĐH </p>
         </p>
         <hr /> <br />
         <div style="text-align:center">
-            <h1>SỬ DỤNG THIẾT BỊ DI ĐỘNG ĐỂ QUÉT MÃ</h1>
-            <img src="images/khoacntt.png" style="max-width:50%" />
+            <h1 style="font-size:  calc(1.5vw + 1.5vh + 0.5vmin);">SỬ DỤNG THIẾT BỊ DI ĐỘNG ĐỂ QUÉT MÃ</h1>
+            <img src="images/khoacntt.png" style="max-width:calc(15.5vw + 15.5vh + 10.5vmin);" />
         </div>
         <hr />
-        <p style="text-align:center;color: #0072bc !important; font-weight:bold">&copy; 2023 KHOA CÔNG NGHỆ THÔNG TIN</p>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold">&copy; 2023 VIỆN ĐÀO TẠO SAU ĐẠI HỌC VÀ KHOA HỌC CÔNG NGHỆ</p>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold">HIEUHV@UEF.EDU.VN</p>
         <p>
         </p>
     </div>

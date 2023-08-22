@@ -277,6 +277,7 @@ button:hover:before {
     .inner {
         min-width: 768px;
     }
+   
 }
 
 @media (max-width: 767px) {
@@ -319,6 +320,12 @@ button:hover:before {
     }
     .left img{
         width:159px !important;
+    }
+    .tta a {
+        font-size: 25px !important;
+    }
+    .pcontent > a {
+        font-size: 18px !important;
     }
 }
 
