@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <title>PARTICIPATE IN ICSES 2023 - INTERNATIONAL SCIENTIFIC CONFERENCE ON SCIENCE, ECONOMY, AND SOCIETY - UEF </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="description" content="The  Ho Chi Minh City University of Economics and Finance, in collaboration with the Department of Public Affairs of the South - Ministry of Science and Technology and the Ho Chi Minh City University of Technology, takes great pleasure in co-hosting the 2nd International Scientific Conference of  2023. This conference centers around the domains of science, economy, and society, under the theme: Collaborative Digital Transformation - Global Integration in the Era of the New Normal." />
+    <meta name="keywords" content="hội thảo khoa học, công nghệ thông tin, uef, đổi mới sáng tạo, kỷ nguyên số" />
+    <meta property="og:updated_time" content="2023-08-11 02:34:18" />
+    <meta property="og:image" content="images/hinh.jpg" />
+    <meta property="og:image:width" content="460" />
+    <meta property="og:image:height" content="320" />
+    <meta itemprop="description" content="The  Ho Chi Minh City University of Economics and Finance, in collaboration with the Department of Public Affairs of the South - Ministry of Science and Technology and the Ho Chi Minh City University of Technology, takes great pleasure in co-hosting the 2nd International Scientific Conference of  2023. This conference centers around the domains of science, economy, and society, under the theme: Collaborative Digital Transformation - Global Integration in the Era of the New Normal.">
+    <meta itemprop="datePublished" content="2023-08-10 00:00:00" />
+    <meta itemprop="dateModified" content="2023-08-11 02:34:18" />
+    <meta itemprop="image" content="images/hinh.jpg" />
+    <style>
+        :root {
+            --accent: #F18260;
+            --purple: #252431;
+        }
+
+        .form-container {
+            position: relative;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 350px;
+            min-height: 300px;
+            margin: 0 auto;
+            box-shadow: 0 10px 50px 0 #ccc;
+            margin-bottom: 2rem;
+        }
+
+        .is-hidden {
+            display: none !important;
+        }
+
+        a {
+            display: block;
+            margin: 0 auto;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            margin-left: 5px;
+            line-height: 20px;
+            font-size: 16px;
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35;
+            }
+
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124;
+            }
+        }
+
+        .loading {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+        }
+
+            .loading-spinner svg {
+                position: relative;
+                animation: rotate 2s linear infinite;
+                height: 50px;
+                width: 50px;
+            }
+
+            .loading-spinner circle {
+                stroke: var(--accent);
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+                stroke-linecap: round;
+                animation: dash 1.5s ease-in-out infinite;
+            }
+
+        p.js-success-message {
+            text-align: center;
+            font-size: 20px;
+            padding: 10px 0px;
+        }
+
+        table.dtable th,
+        table.dtable td,
+        table.ntable th,
+        table.ntable td {
+            border: 1px #ccc solid;
+            border-collapse: collapse;
+            padding: 5px;
+            font-weight: normal;
+        }
+
+        TABLE {
+            margin-bottom: 5px;
+        }
+
+            table.dtable,
+            table.ntable {
+                border: 1px #ccc solid;
+                border-collapse: collapse;
+                padding: 5px;
+                width: 100%;
+            }
+
+        TH {
+            background: #f5f5f5;
+            font-style: normal;
+            color: #167ec2;
+        }
+
+        TD {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        .btn-tuyendung {
+            float: right;
+            border: 2px solid #ae3c33;
+            border-radius: 10px;
+            padding: 10px;
+            color: red;
+        }
+
+        .stt {
+            font-weight: bold;
+            color: white;
+        }
+
+        #hdth {
+            height: 50px;
+        }
+
+            #hdth th {
+                color: white;
+                background: #ed1b2f;
+            }
+
+        .trchan {
+            background-color: #0a8075;
+        }
+
+        .trle {
+            background-color: #009688;
+        }
+
+            .trchan a,
+            .trle a {
+                color: white;
+                padding: 10px 0px 10px 0px !important;
+            }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .ses {
+            min-height: 100px;
+            background-color: #0066b1;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 10px;
+            margin: 5px;
+        }
+
+            .ses.le {
+                background-color: #009688;
+            }
+
+                .ses.le a {
+                    color: white !important;
+                }
+
+        .tta a {
+            font-size: 26px;
+        }
+
+        .pcontent > a {
+            color: yellow;
+            line-height: inherit;
+            font-size: 25px;
+        }
+
+        .CHAIRMAN i {
+            font-size: 76%;
+        }
+
+        .CHAIRMAN {
+            text-align: center !important;
+        }
+
+        p.ft {
+            font-size: calc(1.0vw + 1.0vh + 0.3vmin);
+        }
+    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="images/hinh.jpg" style="width: 100% !important; max-width: 100% !important;" />
+        </div>
+        <div id="main-content">
+            <div class="ses">
+                <p class="tta"><a href="/">SESSIONS 6</a></p>
+                <p class="pcontent"><a href="/sessions-6.html">Information technology and applications</a></p>
+            </div>
+            <br />
+            <h1 style="text-align:center; color: red; font-weight: bold">TABLE OF CONTENTS</h1>
+            <br />
+            <div class="col-sm-12" style="overflow-x: auto">
+                <table class="table" style="width: 100%">
+                    <thead>
+                        <tr id="hdth">
+                            <th>ARTICLE NAME</th>
+                            <th style="max-width:215px">FIRST AUTHOR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td> <a href="icses_18.pdf">FB-PROPHET MODEL FOR TIME SERIES FORECASTING IN SALES </a> </td>
+                            <td> <a href="icses_18.pdf">Tran Thanh Cong</a> </td>
+                        </tr>
+                        <tr class="trchan">
+                            <td> <a href="icses_67.pdf">USING AI CODE IN C# PROGRAMMING </a> </td>
+                            <td> <a href="icses_67.pdf">Nguyen Ha Giang</a> </td>
+                        </tr>
+                        <tr class="trle">
+                            <td> <a href="icses_88.pdf">DETERMINANTS OF CONTINUANCE USAGE INTENTION OF MOBILE FOOD ORDERING APPLICATIONS (MFOAS) AMONG VIETNAMESE USERS: THE MEDIATING ROLE OF E-SATISFACTION </a> </td>
+                            <td> <a href="icses_88.pdf">Lam Hoang Phuong</a> </td>
+                        </tr>
+                        <tr class="trchan">
+                            <td> <a href="icses_95.pdf">DECODING MARKETING INSIGHT: INSIGHT FROM OUTSIDE </a> </td>
+                            <td> <a href="icses_95.pdf">Hoang Thi Hang</a> </td>
+                        </tr>
+                        <tr class="trle">
+                            <td> <a href="icses_96.pdf">DIGITAL DISRUPTION AND DATA SECURITY: HOW FINTECH IS RESHAPING BANKING </a> </td>
+                            <td> <a href="icses_96.pdf">Hoang Van Hieu</a> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <h1 style="text-align:center; color: #0066b1;font-weight: bold; border-radius: 0px; font-size:  calc(1.2vw + 1.2vh + 0.2vmin)">FOREWORD</h1>
+        <p class="ft" style="text-align: justify; padding: 10px;">
+            <i>Ho Chi Minh City University of Economics and Finance (UEF), Agency for the Southern Affairs of Ministry of Science and Technology and Ho Chi Minh City University of Technology (HUTECH) were</i> honored to host the 2nd annual International Conference on Science, Economics and Society Studies (ICSES 2023). The conference was held in Ho Chi Minh City, Vietnam on August 23, 2023. The purpose of this conference series is to provide a forum for communication between researchers and organizations. It is gratifying that there are 94 papers published in the proceedings.
+        </p>
+        <p class="ft" style="text-align: justify; padding: 10px;">
+            We are pleased to acknowledge the official sponsorship of the conference by Sacombank and VNSTELL who have made generous support and contributed to the success of the conference.<br><br>
+            In addition, the success of ICSES 2023 is not possible without the concerted effort of the organizers, reviewers and all the participants. On behalf of the organizing committee, I would like to thank all the authors for their contribution of paper to the conference. My gratitude also extends to the special contribution of the professors and researchers from partner universities and institutions. <br><br>
+            We hope that this program will encourage further stimulate research in Science, Economics and Society Studies, and provide practitioners with useful techniques, knowledge, and tools for advancement in their fields. We feel honored and privileged to create a forum to share and exchange ideas through this exciting program.
+            <br><br>Best regards,
+
+        </p>
+        <p class="ft" style="text-align: right; padding: 10px;">
+            Ho Chi Minh City, Vietnam<br>
+            <b>Program Committee Co-Chair</b><br>
+            Assoc. Prof. Dr. <b>Ngo Cao Cuong</b><br>
+            Ho Chi Minh City University of Economics and Finance
+
+        </p>
+        <br>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold; font-size:23px !important">
+            <h1 class="CHAIRMAN" style="text-align:center;color: #0072bc !important; font-weight:bold; font-size:  calc(1.5vw + 1.5vh + 0.5vmin);">THE BOARD OF EDITOR</h1>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Assoc. Prof. Dr. Ngo Cao Cuong</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Mr. Nguyen Manh Cuong</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Dr. Pham Huy Cuong</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Dr. Duong My Tham</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Dr. Nguyen Thi Dan Tam</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Nguyen Pham Hai Ha, M.Sc</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Hoang Van Hieu, M.Sc</p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: center; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin); ">Truong Thi Dung, MBA</p>
+        </p>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold; margin-top: 15px;">
+            <h1 class="CHAIRMAN" style="text-align:left;color: #0072bc !important; font-weight:bold;  font-size:  calc(1.5vw + 1.5vh + 0.5vmin);">THE BOARD OF CHAIRMAN</h1>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 1.	Assoc. Prof. Dr. Ngo Cao Cuong <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 2.	Assoc. Prof. Dr. Hoang Thi Hong Ha <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 3.	Dr. Van Thi Thien Trang <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 4.	Dr. Ly Dan Thanh <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 5.	Dr. Huynh Nhut Nghia <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left;font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 6.	Dr. Tran Thanh Huyen <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 7.	Dr. Ngo Minh Hai <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 8.	Dr. Pham Huy Cuong <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 9.	Dr. Tran Thanh Huong <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 10.	Dr. Vo Van Thanh Than <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        <p class="CHAIRMAN" style="margin-left: 10px;text-align: left; font-weight: bold; font-size:  calc(1.0vw + 1.2vh + 0.3vmin);"> 11.	Dr. Ha Thi Thuy <br><i>Ho Chi Minh City University of Economics and Finance</i></p>
+        </p>
+        <hr />
+        <p style="text-align:center;color: #0072bc !important; font-size: 10px !important;">&copy; 2023 Ho Chi Minh City University of Economics and Finance - UEF</p>
+        <p style="text-align:center;color: #0072bc !important; font-weight:bold; font-size: 10px !important;">HIEUHV@UEF.EDU.VN</p>
+        <p>
+        </p>
+    </div>
+</body>
+
+</html>
